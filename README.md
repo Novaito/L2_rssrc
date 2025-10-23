@@ -1,8 +1,21 @@
 # L2_rssrc
 Partial ressources of my work in 2nd year of my licence.<br><br>
-<bolder><b>Algorithmic Project:</b></bolder><br>
-  Done with my mate, we had to use a data leak of identifiants and passwords to "get" encrypted ones.
+
+<ul>
+  <li>
+    <bolder><b>Algorithmic Project:</b></bolder><br>
+      Done with my mate, we had to use a data leak of identifiants and passwords to "get" encrypted ones.
+  </li>
   <br><br>
-<bolder><b>C :</b></bolder><br>
-  Project not commited because of a bad code given for the subject, so we had to improve it.
-  
+  <li>
+      <bolder><b>C :</b></bolder><br>
+      <ul>
+        <li>
+          Project with bad code given for the subject, so we had to improve it. The goal of the project was to learn the imbrication of code and structure.
+        </li>
+        <li>
+          Some TPs done to practice the language.
+        </li>
+       </ul>
+  </li>
+</ul>
