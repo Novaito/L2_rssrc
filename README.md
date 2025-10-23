@@ -1,5 +1,5 @@
 # L2_rssrc
-Partial ressources of my work in 2nd year of my licence.<br><br>
+Partial ressources of my work in 2nd year of my licence.<br>
 
 <ul>
   <li>
