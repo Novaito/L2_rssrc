@@ -4,7 +4,11 @@ Partial ressources of my work in 2nd year of my licence.<br>
 <ul>
   <li>
     <bolder><b>Algorithmic Project:</b></bolder><br>
-      Done with my mate, we had to use a data leak of identifiants and passwords to "get" encrypted ones.
+    <ul>
+      <li>
+        Done with my mate, we had to use a data leak of identifiants and passwords to "get" encrypted ones.
+      </li>
+    </ul>
   </li>
   <li>
       <bolder><b>C :</b></bolder><br>
