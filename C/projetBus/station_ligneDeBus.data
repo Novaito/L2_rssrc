@@ -1,0 +1,155 @@
+--6
+1:6
+R1;
+&
+1;
+Alan Turing;
+70 70;
+&
+2;
+1984;
+70 240;
+&
+3;
+Carousel;
+190 240;
+&
+4;
+Circus Tour;
+190 375;
+&
+5;
+Center;
+350 375;
+&
+6;
+Enigma;
+520 375;
+::1
+2:5
+D1;
+&
+7;
+Python;
+520 100;
+&
+8;
+Enigma;
+520 375;
+&
+9;
+Highway;
+650 375;
+&
+10;
+George Bool;
+650 550;
+&
+11;
+Factories;
+500 550;
+::2
+3:5
+B4;
+&
+12;
+Darkrai;
+70 650;
+&
+13;
+SouthSide;
+270 650;
+&
+14;
+Lewis Hamilton;
+270 510;
+&
+15;
+Airborne;
+270 320;
+&
+16;
+Temple;
+270 140;
+::3
+4:6
+C1;
+&
+17;
+Spa;
+600 650;
+&
+18;
+New Place;
+500 650;
+&
+19;
+Wallmart;
+500 470;
+&
+20;
+Game Park;
+500 310;
+&
+21;
+Hollywood;
+500 170;
+&
+22;
+King Town;
+340 170;
+::4
+5:6
+Lib;
+&
+23;
+k2;
+70 350;
+&
+24;
+Le Vert;
+70 420;
+&
+25;
+Mont Kernell;
+70 550;
+&
+26;
+Lenclos;
+420 550;
+&
+27;
+Caprice;
+420 420;
+&
+28;
+Gasoline;
+540 420;
+::5
+6:6
+North;
+&
+29;
+Program File;
+200 200;
+&
+30;
+Theater;
+200 70;
+&
+31;
+Campus;
+360 70;
+&
+32;
+Corner;
+640 70;
+&
+33;
+The Hill;
+640 170;
+&
+34;
+Hollywood;
+500 170;
+::6

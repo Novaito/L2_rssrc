@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1739191833 source:c:\users\thomas\documents\cours\l2\c\tp_image\tp_image\main.c
+	<stdio.h>
+	<stdlib.h>
+	"image.h"
+
+1739191606 source:c:\users\thomas\documents\cours\l2\c\tp_image\tp_image\image.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"image.h"
+
+1739191146 c:\users\thomas\documents\cours\l2\c\tp_image\tp_image\image.h
+

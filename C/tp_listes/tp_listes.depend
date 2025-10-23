@@ -1,0 +1,45 @@
+# depslib dependency file v1.0
+1742553855 source:c:\users\thomas\documents\cours\l2\c\tp_listes\main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	"listeDouble.h"
+	"types.h"
+
+1742553843 c:\users\thomas\documents\cours\l2\c\tp_listes\listedouble.h
+	"types.h"
+
+1742553815 source:c:\users\thomas\documents\cours\l2\c\tp_listes\listedouble.c
+	<stdlib.h>
+	<stdio.h>
+	<time.h>
+	"listeDouble.h"
+	"types.h"
+
+1742551511 source:c:\users\thomas\documents\cours\l2\c\tp_listes\mytab.c
+	<stdio.h>
+	<stdlib.h>
+	"listeDouble.h"
+	"myTab.h"
+
+1742551441 c:\users\thomas\documents\cours\l2\c\tp_listes\mytab.h
+	"listeDouble.h"
+
+1742550343 c:\users\thomas\documents\cours\l2\c\tp_listes\types.h
+	<stdbool.h>
+
+1742467545 source:c:\users\thomas\documents\cours\l2\c\tp_listes\utils.c
+	<stdlib.h>
+	<stdio.h>
+	<stdbool.h>
+
+1742551922 source:c:\users\thomas\documents\cours\l2\c\tp_listes\types.c
+	<stdlib.h>
+	<stdio.h>
+	<stdbool.h>
+	<string.h>
+	"types.h"
+	"utils.h"
+
+1742467545 c:\users\thomas\documents\cours\l2\c\tp_listes\utils.h
+

@@ -1,0 +1,44 @@
+Ce qu'il faut faire :
+
+    1)  a. Fusionner tout les doublons des logins-mdp dans depensetout
+        b. On fait l'inventaire des utilisateurs connus avec leur mdp clair
+
+    2)  a. Tester si l'utilisateur est connus 
+            -> si oui tester les mdp connus de l'utilisateur
+            -> sinon Tester si le hash est connus
+        b. Sinon tester tous les mdp les plus connus (french-pwd)
+
+    3) (Si les étapes précédentes sont concluante) 
+       a. Ajouter les users à une liste d'user avec le mdp connu
+       b. Ajouter le hash à une liste de hash connus
+
+    4) (Si les étapes précédentes sont concluante) 
+       a. Ajouter au resultat sous forme d'une liste 
+
+
+type t_known_user = {login : string; mutable pwd_list : string list}
+type t_known_hash = {hash : string; pwd : string}
+
+
+Liste fonctions à faire :
+    PENSEZ AUX LISTE REF !
+    1)
+    - fusion_file(string array) -> (login, pwd ou hash) list du 1)a (prend en arg les noms de file)
+    - make_known_user_list((user, pwd) list) -> t_known_user list
+        -> add_to_known_user(login, pwd, list_known_user ref) -> unit
+    2)
+    - find_pwd_user(login, hash, list_known_user ref, list_know_hash ref, list_common_pwd) -> (bool, string)
+        - try_known_user(login, hash, list_known_user) -> (bool, string)
+            -> get_if_user_known(login, list_known_user) -> string list (les mdp connus)  (parcours des log des autres app)
+            -> try_hash_pwd(hash, (string list des mdp renvoyés)) -> (bool, string)
+        - try_known_hash(login, hash, list_known_hash ref) -> (bool -> string)
+            -> get_if_hash_known(hash, list_known_hash) -> (bool, string)
+        - try_common_pwd(login, hash, list_known_user, list_known_hash, list_common_pwd) -> (bool, string)
+    3) get_all_pwd(unfound_users_list, list_known_user ref, list_known_hash, list_common_pwd) -> (app, log, pwd) list
+
+    get_known_user(login, list_known_user ref) -> t_known_user
+    get_known_hash(hash, list_known_hash ref) -> t_known_hash
+    make_known_user(login, pwd) -> t_known_user
+
+ let get_known_user_login(user : t_known_user) : string = 
+    user.login;;       
