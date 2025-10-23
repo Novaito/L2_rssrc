@@ -14,7 +14,7 @@ Partial ressources of my work in 2nd year of my licence.<br>
       <bolder><b>C :</b></bolder><br>
       <ul>
         <li>
-          Project with bad code given for the subject, so we had to improve it. The goal of the project was to learn the imbrication of code and structure.
+          Project with bad code given for the subject, so we had to improve it with my mate. The goal of the project was to learn the imbrication of code and structure.
         </li>
         <li>
           Some TPs done to practice the language.
@@ -22,3 +22,4 @@ Partial ressources of my work in 2nd year of my licence.<br>
        </ul>
   </li>
 </ul>
+<br>My mate name's Noé
